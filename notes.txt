@@ -1,0 +1,17 @@
+Basic nlp concepts
+
+1. Segmentation: Separating by sentence.
+2. Tokenization: Making tokens (sepearating by space)
+3. Predicting POS (parts of speech) for each token
+4. Lemmatization: Getting the base form
+5. Identify stop words: remove unnecessary words that add noise like the, end, etc. (depends on the context of what you're building. Example a thing can have a name 'the')
+6. Dependency parsing: find the root and create a relationship dependency. In addition, we can also find the type of relationship between these two. Or instead of this we can have multiple nouns instead of single words. Ex: most populous city.
+7. NER (Named Entity Recognition): Used to find:
+	1. People's name.
+	2. Company's name.
+	3. Geographic locations
+	4. Product names
+	5. Dates and times
+	6. Amounts of money
+	7. Names of events
+
